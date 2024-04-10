@@ -31,12 +31,12 @@
     "lib-esm/**"
   ],
   "keywords": [
-    "libsql",
-    "database",
-    "sqlite",
-    "serverless",
-    "vercel",
-    "netlify",
+    "isomorphic fetch",
+    "isomprphic ts",
+    "isomorphic transport",
+    "fetch",
+    "websocket",
+    "types",
     "lambda",
     "http",
     "https",
