@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "moduleResolution": "node",
+        "lib": ["esnext", "DOM"],
+        "target": "esnext",
+        "esModuleInterop": true,
+        "isolatedModules": true,
+        "rootDir": "src/",
+        "strict": true,
+        "types": [
+            //nothing
+        ]
+    },
+    "include": ["src/"]
+}
