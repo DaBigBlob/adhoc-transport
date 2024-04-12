@@ -1,10 +1,12 @@
 export {
     fetch,
-    WebSocket,
     Request,
     type RequestInfo,
     type RequestInit,
     type ResponseInit,
     Headers,
     type HeadersInit
-} from './deno.js';
+} from './lib.deno_fetch.js';
+export {
+   WebSocket 
+} from './lib.deno_websocket.js';

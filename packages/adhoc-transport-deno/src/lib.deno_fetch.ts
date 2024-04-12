@@ -73,7 +73,7 @@ declare interface Body {
 }
 
 /** @category Fetch API */
-declare type HeadersInit = Iterable<string[]> | Record<string, string>;
+export declare type HeadersInit = Iterable<string[]> | Record<string, string>;
 
 /** This Fetch API interface allows you to perform various actions on HTTP
  * request and response headers. These actions include retrieving, setting,
@@ -85,7 +85,7 @@ declare type HeadersInit = Iterable<string[]> | Record<string, string>;
  *
  * @category Fetch API
  */
-declare interface Headers extends DomIterable<string, string> {
+export declare interface Headers extends DomIterable<string, string> {
   /** Appends a new value onto an existing header inside a `Headers` object, or
    * adds the header if it does not already exist.
    */
@@ -120,13 +120,13 @@ declare interface Headers extends DomIterable<string, string> {
  *
  * @category Fetch API
  */
-declare var Headers: {
+export declare var Headers: {
   readonly prototype: Headers;
   new (init?: HeadersInit): Headers;
 };
 
 /** @category Fetch API */
-declare type RequestInfo = Request | string;
+export declare type RequestInfo = Request | string;
 /** @category Fetch API */
 declare type RequestCache =
   | "default"
@@ -182,7 +182,7 @@ declare type RequestDestination =
   | "xslt";
 
 /** @category Fetch API */
-declare interface RequestInit {
+export declare interface RequestInit {
   /**
    * A BodyInit object or null to set request's body.
    */
@@ -250,7 +250,7 @@ declare interface RequestInit {
  *
  * @category Fetch API
  */
-declare interface Request extends Body {
+export declare interface Request extends Body {
   /**
    * Returns the cache mode associated with request, which is a string
    * indicating how the request will interact with the browser's cache when
@@ -340,13 +340,13 @@ declare interface Request extends Body {
  *
  * @category Fetch API
  */
-declare var Request: {
+export declare var Request: {
   readonly prototype: Request;
   new (input: RequestInfo | URL, init?: RequestInit): Request;
 };
 
 /** @category Fetch API */
-declare interface ResponseInit {
+export declare interface ResponseInit {
   headers?: HeadersInit;
   status?: number;
   statusText?: string;
@@ -401,7 +401,7 @@ declare var Response: {
  * @tags allow-net, allow-read
  * @category Fetch API
  */
-declare function fetch(
+export declare function fetch(
   input: URL | Request | string,
   init?: RequestInit,
 ): Promise<Response>;
