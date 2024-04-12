@@ -28,8 +28,7 @@
   },
   "description": "adhoc transport for cloudflare workers",
   "files": [
-    "lib-cjs/**",
-    "lib-esm/**"
+    "./dist/**"
   ],
   "keywords": [
     "isomorphic fetch",
