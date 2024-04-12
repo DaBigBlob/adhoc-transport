@@ -54,5 +54,8 @@
     "prod": "npm publish && npm run clean"
   },
   "type": "module",
-  "types": "./dist/main.d.ts"
+  "types": "./dist/main.d.ts",
+  "dependencies": {
+    "undici": "^6.12.0"
+  }
 }
