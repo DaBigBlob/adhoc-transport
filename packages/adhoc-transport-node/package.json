@@ -1,6 +1,6 @@
 {
-  "name": "adhoc-transport-cfworkers",
-  "version": "0.1.4",
+  "name": "adhoc-transport-node",
+  "version": "0.1.0",
   "homepage": "https://github.com/DaBigBlob/adhoc-transport#readme",
   "repository": {
     "type": "git",
@@ -28,7 +28,7 @@
     "name": "LocalBox Crox",
     "email": "localboxcrox@gmail.com"
   },
-  "description": "adhoc transport for cloudflare workers",
+  "description": "adhoc transport for node",
   "files": [
     "./dist/**"
   ],
@@ -39,12 +39,10 @@
     "fetch",
     "websocket",
     "types",
-    "lambda",
+    "node",
     "http",
     "https",
-    "webapi",
-    "cloudflare-workers",
-    "cloudflare-pages",
+    "nodejs",
     "edge"
   ],
   "license": "MIT",
