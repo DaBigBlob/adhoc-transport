@@ -12,6 +12,7 @@
   },
   "main": "lib-cjs/main.js",
   "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240405.0",
     "typescript": "^5.0.0"
   },
   "exports": {

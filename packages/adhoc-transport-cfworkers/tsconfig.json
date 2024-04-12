@@ -1,5 +1,8 @@
 {
   "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "node",
     "strict": true,
     "noImplicitAny": true,
     "strictNullChecks": true,
@@ -12,6 +15,13 @@
     "noUnusedParameters": true,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
-    "lib": ["DOM", "ESNext"]
-  }
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "rootDir": "src/",
+    
+    "types": [
+      "@cloudflare/workers-types"
+    ]
+  },
+  "include": ["src/"]
 }
