@@ -60,5 +60,10 @@
     "prod": "npm publish && npm run clean"
   },
   "type": "module",
-  "types": "./dist/main.d.ts"
+  "types": "./dist/main.d.ts",
+  "dependencies": {
+    "adhoc-transport-cfworkers": "^0.1.5",
+    "adhoc-transport-node": "^0.1.0",
+    "adhoc-transport-webapi": "^0.1.5"
+  }
 }
