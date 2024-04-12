@@ -39,8 +39,7 @@
     "node",
     "http",
     "https",
-    "nodejs",
-    "edge"
+    "nodejs"
   ],
   "license": "MIT",
   "scripts": {
