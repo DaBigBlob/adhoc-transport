@@ -1,27 +1,23 @@
 {
   "compilerOptions": {
-    "target": "ESNext",
-    "module": "ESNext",
-    "moduleResolution": "node",
     "strict": true,
     "noImplicitAny": true,
     "strictNullChecks": true,
     "strictFunctionTypes": true,
     "strictBindCallApply": true,
     "strictPropertyInitialization": true,
+    "verbatimModuleSyntax": true,
     "noImplicitThis": true,
     "alwaysStrict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
-    "esModuleInterop": true,
-    "resolveJsonModule": true,
-    "rootDir": "src/",
-    
-    "types": [
-      "@cloudflare/workers-types"
-    ]
-  },
-  "include": ["src/"]
+
+    "lib": ["ES2020"],
+    "module": "Node16",
+    "target": "ES5",
+    "declaration": true,
+    "outDir": "./dist"
+  }
 }

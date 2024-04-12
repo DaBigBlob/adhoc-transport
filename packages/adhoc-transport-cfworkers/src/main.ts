@@ -1,6 +1,12 @@
-const _fetch = fetch;
-const _WebSocket = WebSocket;
 export {
-    _fetch as fetch,
-    _WebSocket as WebSocket
-};
+    fetch,
+    WebSocket,
+    Request,
+    Response,
+    type RequestInfo,
+    type RequestInit,
+    type RequestInitCfProperties,
+    type ResponseInit,
+    Headers,
+    type HeadersInit
+} from '@cloudflare/workers-types';
