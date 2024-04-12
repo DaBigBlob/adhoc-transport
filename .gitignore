@@ -175,8 +175,7 @@ dist
 .DS_Store
 
 # Project specific
-lib-cjs/
-lib-esm/
+dist/
 _conf.ts
 wiki/
 *.lockb
