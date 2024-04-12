@@ -1,6 +1,6 @@
 {
   "name": "adhoc-transport-cfworkers",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "homepage": "https://github.com/DaBigBlob/adhoc-transport#readme",
   "repository": {
     "type": "git",
@@ -12,8 +12,10 @@
   },
   "main": "./dist/main.js",
   "devDependencies": {
-    "@cloudflare/workers-types": "^4.20240405.0",
     "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@cloudflare/workers-types": "^4.20240405.0"
   },
   "exports": {
     ".": {
