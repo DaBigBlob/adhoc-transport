@@ -14,9 +14,6 @@
   "devDependencies": {
     "typescript": "^5.0.0"
   },
-  "dependencies": {
-    "@cloudflare/workers-types": "^4.20240405.0"
-  },
   "exports": {
     ".": {
       "types": "./dist/main.d.ts",
