@@ -1,6 +1,6 @@
 {
-  "name": "adhoc-transport-cfworkers",
-  "version": "0.1.5",
+  "name": "adhoc-transport-deno",
+  "version": "0.1.0",
   "homepage": "https://github.com/DaBigBlob/adhoc-transport#readme",
   "repository": {
     "type": "git",
@@ -14,9 +14,6 @@
   "devDependencies": {
     "typescript": "^5.0.0"
   },
-  "dependencies": {
-    "@cloudflare/workers-types": "^4.20240405.0"
-  },
   "exports": {
     ".": {
       "types": "./dist/main.d.ts",
@@ -28,7 +25,7 @@
     "name": "LocalBox Crox",
     "email": "localboxcrox@gmail.com"
   },
-  "description": "adhoc transport for cloudflare workers",
+  "description": "adhoc transport for deno",
   "files": [
     "./dist/**"
   ],
@@ -39,13 +36,9 @@
     "fetch",
     "websocket",
     "types",
-    "lambda",
     "http",
     "https",
-    "webapi",
-    "cloudflare-workers",
-    "cloudflare-pages",
-    "edge"
+    "deno"
   ],
   "license": "MIT",
   "scripts": {
