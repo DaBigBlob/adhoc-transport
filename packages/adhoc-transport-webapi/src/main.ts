@@ -1,12 +1,21 @@
+const _fetch = fetch;
+class _WebSocket extends WebSocket {}
+class _Request extends Request {}
+class _Response extends Response {}
+type _RequestInfo = RequestInfo;
+type _RequestInit = RequestInit;
+type _ResponseInit = ResponseInit;
+class _Headers extends Headers {}
+type _HeadersInit = HeadersInit;
+
 export {
-    fetch,
-    WebSocket,
-    Request,
-    Response,
-    type RequestInfo,
-    type RequestInit,
-    type RequestInitCfProperties,
-    type ResponseInit,
-    Headers,
-    type HeadersInit
-} from '@cloudflare/workers-types';
+    _fetch as fetch,
+    _WebSocket as WebSocket,
+    _Request as Request,
+    _Response as Response,
+    type _RequestInfo as RequestInfo,
+    type _RequestInit as RequestInit,
+    type _ResponseInit as ResponseInit,
+    _Headers as Headers,
+    type _HeadersInit as HeadersInit
+};

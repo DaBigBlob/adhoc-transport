@@ -1,5 +1,5 @@
 {
-  "name": "adhoc-transport-webapi",
+  "name": "adhoc-transport",
   "version": "0.1.5",
   "homepage": "https://github.com/DaBigBlob/adhoc-transport#readme",
   "repository": {
@@ -25,7 +25,7 @@
     "name": "LocalBox Crox",
     "email": "localboxcrox@gmail.com"
   },
-  "description": "adhoc transport for webapi",
+  "description": "adhoc transport for cloudflare workers, node, and webapi/browsers",
   "files": [
     "./dist/**"
   ],
@@ -36,10 +36,17 @@
     "fetch",
     "websocket",
     "types",
+    "lambda",
     "http",
     "https",
     "webapi",
-    "browser"
+    "cloudflare-workers",
+    "cloudflare-pages",
+    "browsers",
+    "node",
+    "nodejs",
+    "webapi",
+    "edge"
   ],
   "license": "MIT",
   "scripts": {
@@ -53,8 +60,5 @@
     "prod": "npm publish && npm run clean"
   },
   "type": "module",
-  "types": "./dist/main.d.ts",
-  "dependencies": {
-    "@types/web": "^0.0.142"
-  }
+  "types": "./dist/main.d.ts"
 }
